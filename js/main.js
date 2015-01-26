@@ -16,15 +16,17 @@ var productPage = {
 //adding functions to the single products
 
   addProduct: function (product, index, array) {
-    $('section').append(
-      '<article>' +
-      '<h2>' + product.title + '</h2>'
-      + '<img src=' + product.image + ' />'
-      + '<h3>' + "Product Description" + '</h3>'
-      + '<p>' + product.description + '</p>'
-      + '<h3>' + product.price + '</h3>'
-      + '</article>'
-    );
+    // $('section').append(
+    //   '<article>' +
+    //   '<h2>' + product.title + '</h2>'
+    //   + '<img src=' + product.image + ' />'
+    //   + '<h3>' + "Product Description" + '</h3>'
+    //   + '<p>' + product.description + '</p>'
+    //   + '<h3>' + product.price + '</h3>'
+    //   + '</article>'
+    // );
+    var compiled = _.template(templates.product);
+    $('section').append(compiled(product));
 
   },
 
