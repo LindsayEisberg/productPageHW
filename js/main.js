@@ -20,7 +20,9 @@ var productPage = {
       '<article>' +
       '<h2>' + product.title + '</h2>'
       + '<img src=' + product.image + ' />'
+      + '<h3>' + "Product Description" + '</h3>'
       + '<p>' + product.description + '</p>'
+      + '<h3>' + product.price + '</h3>'
       + '</article>'
     );
 
