@@ -1,0 +1,25 @@
+{
+  "name": "jsWebstore",
+  "version": "0.0.0",
+  "authors": [
+    "Lindsay Eisberg <lindsay.eisberg@gmail.com>"
+  ],
+  "description": "Product Page",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "font-awesome": "~4.3.0",
+    "underscore": "~1.7.0"
+  }
+}

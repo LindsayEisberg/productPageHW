@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  background: #0d5634;
+  width: 100%; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  nav li {
+    display: inline-block;
+    margin-left: 15px; }
+    nav li:hover {
+      background: white; }
+  nav a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none; }
+    nav a:hover {
+      color: #0d5634; }
+
+article {
+  padding: 20px;
+  display: inline-block;
+  width: 30%;
+  text-align: center; }
+
+h2 {
+  color: #0d5634; }
