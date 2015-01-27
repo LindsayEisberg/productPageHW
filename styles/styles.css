@@ -1,32 +1,50 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background: #eafff5; }
 
-nav {
-  background: #0d5634;
-  width: 100%; }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none; }
-  nav li {
+/* nav {
+  background: \$header-font;
+  width: 100%;
+  ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  }
+  li {
     display: inline-block;
-    margin-left: 15px; }
-    nav li:hover {
-      background: white; }
-  nav a {
+    margin-left: 15px;
+    &:hover {
+      background: white;
+    }
+  }
+  a {
     display: block;
     padding: 15px;
     color: white;
-    text-decoration: none; }
-    nav a:hover {
-      color: #0d5634; }
-
+    text-decoration: none;
+    &:hover {
+    color:\$header-font;
+    }
+  }
+} */
 article {
   padding: 20px;
   display: inline-block;
   width: 30%;
   text-align: center; }
 
+.wrapper {
+  width: 406px;
+  height: 663px;
+  background: #bf5c52;
+  padding: 10px; }
+
 h2, h3 {
-  color: #0d5634; }
+  color: #3A403D; }
+
+img {
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  background: #570D00; }

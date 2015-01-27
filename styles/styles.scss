@@ -1,10 +1,18 @@
+$header-font: #3A403D;
+$light-red: #bf5c52;
+$burnt-red:#570D00;
+$dark-gray:#0C0D0C;
+$bg-color: #eafff5;
+
+
 body {
   margin: 0;
   padding: 0;
+  background: $bg-color;
 }
 
-nav {
-  background: #0d5634;
+/* nav {
+  background: \$header-font;
   width: 100%;
   ul {
   margin: 0;
@@ -24,10 +32,10 @@ nav {
     color: white;
     text-decoration: none;
     &:hover {
-    color:#0d5634
+    color:\$header-font;
     }
   }
-}
+} */
 
 article {
   padding: 20px;
@@ -36,6 +44,19 @@ article {
   text-align:center;
 }
 
+.wrapper {
+  width:406px;
+  height: 663px;
+  background:$light-red;
+  padding: 10px;
+}
 h2, h3 {
-  color: #0d5634;
+  color: $header-font;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  background: $burnt-red;
 }
