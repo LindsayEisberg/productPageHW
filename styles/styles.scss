@@ -11,6 +11,8 @@ body {
   background: $bg-color;
 }
 
+
+
 /* nav {
   background: \$header-font;
   width: 100%;
@@ -36,7 +38,13 @@ body {
     }
   }
 } */
+section {
+max-width: 1300px;
+width: 100%;
+margin: auto;
 
+
+}
 article {
   padding: 20px;
   display: inline-block;
@@ -46,7 +54,7 @@ article {
 
 .wrapper {
   width:406px;
-  height: 663px;
+  height: 680px;
   background:$light-red;
   padding: 10px;
 }
