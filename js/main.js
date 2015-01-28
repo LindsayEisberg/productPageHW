@@ -14,14 +14,10 @@ var productPage = {
        productPage.createProduct();
      });
 
-     $('form').on('updateProduct', function(event){
-       event.preventDefault();
-       productPage.updateProduct();
-     });
+
 
      $('section').on('click', '.deleteProduct', productPage.deleteProduct);
      $('section').on('click', '.updateProduct', productPage.updateProduct);
-
 
      console.log('events loaded correctly');
 
